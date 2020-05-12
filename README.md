@@ -1,27 +1,20 @@
-# Create a marketing website using ReactJS framework
+[![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
-About Contentstack: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
+# Contentstack ReactJS A/B Testing
 
-About this project: Create professional marketing-themed website using ReactJS framework.
-
-![pic one](https://user-images.githubusercontent.com/29656920/74821414-8f3b1580-5329-11ea-99ad-1b9b477eaaf7.png)
-
-![pic two](https://user-images.githubusercontent.com/29656920/74821435-9d893180-5329-11ea-86b4-5189869c0be8.png)
-
-## Live Demo
-
-You can check the [live demo](https://hopeful-nobel-47d909.netlify.com/) to get first-hand experience of the website.
+Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
+ 
+A/B Testing is an experiment where two different variants (A and B) of a page are displayed to users. This experiment helps in determining which variation users prefer. It's essentially a systematic approach to understand what works and what doesn't. You can then perform the analysis on user behavior which can help marketing teams during product campaigns and promotions.
 
 ## Tutorial
 
-We have created an in-depth tutorial on how you can create a website using ReactJS framework. By following the steps given in the tutorial, design a website similar to the one given in the demo.
+In this guide, we have discussed about personalization, what it is and how you can implement it on your Contentstack-powered websites using Optimizely's Feature Test. Example banner image below :
 
-[Create a marketing website using ReactJS framework](https://www.contentstack.com/docs/developers/sample-apps/build-a-marketing-app-using-contentstack-and-react-js)
+![Screenshot from 2020-05-12 15-56-12](https://user-images.githubusercontent.com/29656920/81673440-464ab700-9469-11ea-9379-37a9dc12967a.png)
+
 
 ## Documentation
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
 Learn about [React.js](https://reactjs.org/)
-
-
