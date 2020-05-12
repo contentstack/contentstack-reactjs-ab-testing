@@ -8,7 +8,7 @@ A/B Testing is an experiment where two different variants (A and B) of a page ar
 
 ## Tutorial
 
-In this guide, we have discussed about personalization, what it is and how you can implement it on your Contentstack-powered websites using Optimizely's Feature Test. Example banner image below :
+In this guide, we will look at the steps involved in performing A/B Testing on your Contentstack-powered websites using Optimizely. Example banner image below :
 
 ![Screenshot from 2020-05-12 15-56-12](https://user-images.githubusercontent.com/29656920/81673440-464ab700-9469-11ea-9379-37a9dc12967a.png)
 
