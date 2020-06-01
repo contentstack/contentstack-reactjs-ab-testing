@@ -261,24 +261,6 @@ class Home extends Component {
                           <span aria-hidden="true">×</span>
                         </button>
                       </div>
-                      <div className="modal-content">
-                        <div className="modal-body">
-                          <div
-                            className="embed-responsive embed-responsive-16by9"
-                            id="yt-player"
-                          >
-                            <img
-                              className="img-responsive"
-                              src={"img/hero-bg.jpg"}
-                              alt="demo"
-                            />
-                            <iframe
-                              className="embed-responsive-item"
-                              src="http://player.vimeo.com/video/27408483?title=0&byline=0&portrait=0&color=ffffff"
-                            ></iframe>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </section>
