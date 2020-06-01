@@ -73,19 +73,10 @@ class Home extends Component {
       $header.find(".logo > img").attr("src", $logoAlt);
     }
 
-    $(window).on("scroll", function () {
+   $(window).on("scroll", function () {
       if (
         window.location.pathname != "/features" &&
-        window.location.pathname != "/about" &&
-        window.location.pathname != "/blog" &&
-        window.location.pathname !=
-          "/blog/Everything-You-Need-to-Know-About-Content-Personalization-Technology" &&
-        window.location.pathname !=
-          "/blog/Contentstacks-In-App-Search-Just-Got-Stronger-and-More-Flexible" &&
-        window.location.pathname !=
-          "/blog/How-Modern-Marketers-Can-Implement-AI-for-Content-Marketing" &&
-        window.location.pathname !=
-          "/blog/Contentstack-and-commercetools-Host-Retail-Industry-MACH-tail-Reception"
+        window.location.pathname != "/about"
       ) {
         if ($(window).scrollTop() > 100) {
           $header.fadeIn().addClass("opaque");
