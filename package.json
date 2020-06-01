@@ -1,5 +1,6 @@
 {
-  "name": "market",
+  "name": "contentstack-reactjs-ab-testing",
+  "description": "This guide is for contentstack-reactjs-ab-testing using optimizely",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
