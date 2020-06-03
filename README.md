@@ -18,4 +18,4 @@ In this guide, we will look at the steps involved in performing A/B Testing on y
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-Learn about [React.js](https://reactjs.org/)
+Learn about [A/B Testing Using Contentstack and Optimizely](www.contentstack.com/docs/developers/how-to-guides/a-b-testing-using-contentstack-and-optimizely/)
