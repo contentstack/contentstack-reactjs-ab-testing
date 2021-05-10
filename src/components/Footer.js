@@ -25,31 +25,34 @@ class Footer extends Component {
 
   render() {
     if (this.state.footer !== '') {
-      const blockOne = this.state.footer[0].footer_section.footer_menu[0].footer_content;
-      const blockTwo = this.state.footer[0].footer_section.footer_menu[1].footer_content;
-      const blockThree = this.state.footer[0].footer_section.footer_menu[2].footer_content;
-      const copyright = this.state.footer[0].copy_rights;
-
       return (
         <footer className="footer">
           <div className="footer-content">
             <div className="container">
               <div className="row">
-                <div className="col-sm-6 col-md-4">
-                  <h5>{this.state.footer[0].footer_section.footer_menu[0].title}</h5>
-                  {ReactHtmlParser(blockOne)}
-                </div>
-                <div className="col-sm-6 col-md-4">
-                  <h5>{this.state.footer[0].footer_section.footer_menu[1].title}</h5> {ReactHtmlParser(blockTwo)}
-                </div>
-                <div className="col-sm-6 col-md-4">
-                  <h5>{this.state.footer[0].footer_section.footer_menu[2].title}</h5> {ReactHtmlParser(blockThree)}
-                </div>
+                {this.state.footer.map((index) => {
+                  return index.footer_section.footer_menu.map((value,i) => {
+                    if (value) {
+                      return (
+                        <div className="col-sm-6 col-md-4" key={i}>
+                          <h5>{value.title}</h5>
+                          {ReactHtmlParser(value.footer_content)}
+                        </div>
+                      );
+                    }
+                  });
+                })}
               </div>
             </div>
           </div>
           <div className="footer-copyright">
-            <span>{ReactHtmlParser(copyright)}</span>
+            {this.state.footer.map((value) => {
+              return (
+                <>
+                  <span>{ReactHtmlParser(value.copy_rights)}</span>
+                </>
+              );
+            })}
           </div>
         </footer>
       );

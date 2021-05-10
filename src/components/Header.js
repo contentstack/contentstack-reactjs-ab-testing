@@ -105,8 +105,6 @@ class Header extends Component {
                             </>
                           </ul>
                         </div>
-
-                        {/* <!-- .navbar-collapse --> */}
                       </nav>
                     </div>
                   </header>
